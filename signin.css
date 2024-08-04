@@ -20,6 +20,15 @@ body {
     padding: 10px 8%;
     position: relative;
 }
+.opaque{
+    background: #0000005d;
+    min-height: 600px;
+    padding: 48px 68px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 50px;
+    max-width: 450px;
+}
 
 .grey {
     width: 100%;
@@ -64,26 +73,16 @@ nav button {
     margin-top: 100px;
 }
 
-.header-text h1 {
-    font-size: 48px;
+.header-text h2 {
+    font-size: 1.75rem;
     line-height: 70px;
     font-weight: 900;
     white-space: nowrap;
+    text-align: left;
 }
 
-.header-text h3 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
 
-.header-text p {
-    font-weight: 400;
-    font-size: 1.25rem;
-    margin-bottom: 20px;
-}
-
-.email {
+/* .email {
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -116,13 +115,32 @@ nav button {
     cursor: pointer;
     padding: 15px 30px;
     color: #ffff;
+} */
+input{
+    margin-top: 20px;
+    padding-left: 15px;
+    width: 314px;
+    height : 56px;
+    border-radius: 4px;
+    align-items: center;
+    background-color: #3b3a3aa4;
+    font-size: 1rem;
+    border-color: #797979;
+    color: #777;
 }
-
-.bottom {
-    padding: 50px 12%;
-    font-size: 22px;
+button{
+    margin-top: 20px;
+    width: 314px;
+    height : 40px;
+    background-color: #db0001;
+    color: #ffff;
+    border: none;
 }
-
+h5{
+    margin-top: 15px;
+    color:#797979;
+    font-size: 1.25rem;
+}
 .row {
     display: flex;
     width: 100%;
@@ -130,100 +148,8 @@ nav button {
     flex-wrap: wrap;
     padding: 50px 0;
 }
-
-.text-clm {
-    flex-basis: 50%;
-    margin-bottom: 20px;
-}
-
-.imgtv {
-    margin-bottom: 20px;
-    flex-basis: 50%;
-}
-
-.imgtv>img {
-    display: block;
-    margin: auto;
-    width: 90%;
-}
-
-.bottom h2 {
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-.bottom p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-
-.faq {
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.faq h2 {
-    font-size: 4.5rem;
-    font-weight: 600;
-}
-
-.questions {
-    margin: 60px auto;
-    width: 100%;
-    max-width: 750px;
-}
-
-.questions li {
-    list-style: none;
-    width: 100%;
-    padding: 5px;
-    padding: 20px;
-    margin-bottom: 10px;
-}
-
-.queery {
-    display: block;
-    align-items: center;
-    padding: 20px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    background-color: #303030;
-    margin-bottom: 20px;
-    cursor: pointer;
-    position: relative;
-    text-align: left;
-}
-
-.queery:hover {
-    display: block;
-    align-items: center;
-    padding: 20px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    background-color: #474747;
-    cursor: pointer;
-    position: relative;
-    text-align: left;
-}
-
-.queery i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.faq .email {
-    max-width: 600px;
-    margin: 20px auto 60px;
-}
-
-.faq small {
-    font-size: 1.25rem;
-}
-
 .footer {
+    display: block;
     padding: 50px 15% 10px;
     border-top: 6px solid;
     color: #777;
@@ -236,7 +162,7 @@ nav button {
 
 .footer-col a {
     color: #777;
-    display: block;
+    display: inline-block;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -252,4 +178,6 @@ nav button {
     color: #ffff;
     padding: 10px 20px;
     border-radius: 3px;
+    height: 30px;
+    width: 120px;
 }
