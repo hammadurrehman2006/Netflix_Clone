@@ -80,8 +80,7 @@ nav button {
     white-space: nowrap;
     text-align: left;
 }
-
-input{
+.inputs input{
     margin-top: 20px;
     padding-left: 15px;
     width: 314px;
@@ -92,6 +91,9 @@ input{
     font-size: 1rem;
     border-color: #797979;
     color: #777;
+}
+#checkbox{
+    text-align: left;
 }
 button{
     margin-top: 20px;
